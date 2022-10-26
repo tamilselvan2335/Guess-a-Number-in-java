@@ -1,7 +1,7 @@
 package pro;
 import java.util.Random;
 import java.util.Scanner;
-
+//hugy
 public class Guess_Number {
 	
   public static void main(String[]args)
