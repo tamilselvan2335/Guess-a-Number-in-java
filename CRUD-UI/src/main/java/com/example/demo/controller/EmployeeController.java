@@ -27,6 +27,8 @@ public class EmployeeController {
 	
 	@GetMapping("/showNewEmployeeForm")
 	public String showNewEmployeeForm(Model model) {
+
+		//just command		
 		// create model attribute to bind form data
 		Employee employee = new Employee();
 		model.addAttribute("employee", employee);
